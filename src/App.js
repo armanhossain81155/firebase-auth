@@ -191,7 +191,7 @@ function App() {
         user.isSignedIn && <div>
 
           <p>Welcome, {user.name}</p>
-          <p>Your Email: {user.email}</p>
+          <p>Your Email add: {user.email}</p>
           <img src={user.photo} alt="" />
 
         </div>
